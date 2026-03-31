@@ -13,13 +13,19 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Blizzar_Entertainment"/>
+        <Class IRI="#Action_RPG"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ConcernedApe"/>
+        <Class IRI="#Battle_Royale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competitive"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Console"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooperative"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Corporate_Developer"/>
@@ -28,28 +34,31 @@
         <Class IRI="#Developer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Game"/>
+        <Class IRI="#Game_Mode"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Hollow_Knight"/>
+        <Class IRI="#Handheld_Console"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Hollow_Knight_Silksong"/>
+        <Class IRI="#Home_Console"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Indie_Developer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Mario_Kart_World"/>
+        <Class IRI="#Japanese_RPG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MMO_RPG"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Metroidvania"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Nintendo"/>
+        <Class IRI="#Multi_Player"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PC"/>
@@ -61,9 +70,6 @@
         <Class IRI="#Platformer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PlayStation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#RPG"/>
     </Declaration>
     <Declaration>
@@ -73,28 +79,19 @@
         <Class IRI="#Roguelike"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rythm"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Shooter"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Simulation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stardew_Valley"/>
+        <Class IRI="#Single_Player"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SteamDeck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Switch"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Team_Cherry"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ubisoft"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Xbox"/>
+        <Class IRI="#Tower_Defense"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Developed"/>
@@ -108,45 +105,105 @@
     <Declaration>
         <ObjectProperty IRI="#Was_Developed_By"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blizzard_Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConcernedApe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Counter_Strike_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hollow_Knight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hollow_Knight_Silksong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mario_Kart_World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Play_Station"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stardew_Valley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steam_Deck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Switch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Team_Cherry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ubisoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#World_Of_Warcraft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xbox"/>
+    </Declaration>
     <SubClassOf>
-        <Class IRI="#Blizzar_Entertainment"/>
-        <Class IRI="#Corporate_Developer"/>
+        <Class IRI="#Action_RPG"/>
+        <Class IRI="#RPG"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ConcernedApe"/>
-        <Class IRI="#Indie_Developer"/>
+        <Class IRI="#Battle_Royale"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Competitive"/>
+        <Class IRI="#Multi_Player"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Console"/>
         <Class IRI="#Platform"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cooperative"/>
+        <Class IRI="#Multi_Player"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Corporate_Developer"/>
         <Class IRI="#Developer"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Hollow_Knight"/>
-        <Class IRI="#Game"/>
+        <Class IRI="#Handheld_Console"/>
+        <Class IRI="#Console"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Hollow_Knight_Silksong"/>
-        <Class IRI="#Game"/>
+        <Class IRI="#Home_Console"/>
+        <Class IRI="#Console"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Indie_Developer"/>
         <Class IRI="#Developer"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Mario_Kart_World"/>
-        <Class IRI="#Game"/>
+        <Class IRI="#Japanese_RPG"/>
+        <Class IRI="#RPG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MMO_RPG"/>
+        <Class IRI="#RPG"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Metroidvania"/>
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Nintendo"/>
-        <Class IRI="#Corporate_Developer"/>
+        <Class IRI="#Multi_Player"/>
+        <Class IRI="#Game_Mode"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PC"/>
@@ -155,10 +212,6 @@
     <SubClassOf>
         <Class IRI="#Platformer"/>
         <Class IRI="#Genre"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PlayStation"/>
-        <Class IRI="#Console"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RPG"/>
@@ -173,6 +226,10 @@
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rythm"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Shooter"/>
         <Class IRI="#Genre"/>
     </SubClassOf>
@@ -181,28 +238,12 @@
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Stardew_Valley"/>
-        <Class IRI="#Game"/>
+        <Class IRI="#Single_Player"/>
+        <Class IRI="#Game_Mode"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SteamDeck"/>
-        <Class IRI="#Console"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Switch"/>
-        <Class IRI="#Console"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Team_Cherry"/>
-        <Class IRI="#Indie_Developer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ubisoft"/>
-        <Class IRI="#Corporate_Developer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Xbox"/>
-        <Class IRI="#Console"/>
+        <Class IRI="#Tower_Defense"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#Developed"/>
