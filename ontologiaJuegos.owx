@@ -12,6 +12,222 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Blizzar_Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcernedApe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Console"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporate_Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hollow_Knight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hollow_Knight_Silksong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indie_Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mario_Kart_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metroidvania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nintendo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RPG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Racing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roguelike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shooter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stardew_Valley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SteamDeck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Team_Cherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubisoft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xbox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Developed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Is_Played_On"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Is_Used_To_Play"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Was_Developed_By"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Blizzar_Entertainment"/>
+        <Class IRI="#Corporate_Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcernedApe"/>
+        <Class IRI="#Indie_Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Console"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporate_Developer"/>
+        <Class IRI="#Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hollow_Knight"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hollow_Knight_Silksong"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indie_Developer"/>
+        <Class IRI="#Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mario_Kart_World"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metroidvania"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nintendo"/>
+        <Class IRI="#Corporate_Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PC"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platformer"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayStation"/>
+        <Class IRI="#Console"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RPG"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Racing"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roguelike"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooter"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simulation"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stardew_Valley"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SteamDeck"/>
+        <Class IRI="#Console"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switch"/>
+        <Class IRI="#Console"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Team_Cherry"/>
+        <Class IRI="#Indie_Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubisoft"/>
+        <Class IRI="#Corporate_Developer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xbox"/>
+        <Class IRI="#Console"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Developed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Is_Played_On"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Is_Used_To_Play"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Was_Developed_By"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Developed"/>
+        <ObjectProperty IRI="#Was_Developed_By"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Is_Played_On"/>
+        <ObjectProperty IRI="#Is_Used_To_Play"/>
+    </InverseObjectProperties>
 </Ontology>
 
 
